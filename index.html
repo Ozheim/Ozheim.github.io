@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Zouaoui-rabah Heikel</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/logo_HZ.jpg" alt="Heikel photo" class="logoHZ">
+        </div>
+        <div class="menu-container">
+            <div class="menu-button" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="menu-list" id="menuList">
+                <li><a href="/#description">description</a></li>
+                <li><a href="/#titrePropos">À propos</a></li>
+                <li><a href="/#service">Services</a></li>
+                <li><a href="/#mesProjets">Mes Projets</a></li>
+                <li><a href="/#competences">Mes Compétences</a></li>
+                <li><a href="/#contact">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="description" id="description">
+        <img src="/images/HZ.jpg" alt="heikelProfil" class="HeikelProfil">
+
+            <h2>Zouaoui-rabah Heikel</h2>
+            <h3>Develloppeur Web</h3>
+            <p>
+                Salut ! Je suis un jeune de 23 ans, passionné par le développement web et l'accessibilité.
+                Actuellement en formation chez Openclassroom,
+                je suis déterminé à approfondir mes compétences et à me perfectionner dans le monde fascinant de la
+                création web.
+            </p>
+            <div class="boutonContent">
+                <a href="mailto:heikel.zouaoui@gmail.com" class="bouton">Me Contacter</a>
+
+
+                <a href="https://github.com/Ozheim" class="bouton" target="_blank">GitHub</a>
+            </div>
+        </div>
+        <div class="titrePropos" id="titrePropos">
+            <h2>A propos</h2>
+        </div>
+
+        <div class="APropos">
+
+            <div class="proposContent">
+                <p>
+                Au cours de ma formation, j'explore différentes facettes du développement web pour développer une solide compréhension
+                des technologies front-end. Je me consacre également à maîtriser le JavaScript et ses frameworks populaires comme React,
+                afin de créer des sites interactifs et performants. Cette formation me permet de relever les défis techniques tout en
+                acquérant les compétences nécessaires pour innover et rendre le web plus accessible et convivial.
+                </p>
+            </div>
+        </div>
+        <div class="service" id="service">
+            <h2>Mes services</h2>
+            <div class="serviceContent">
+                <div class="création">
+                    <h3>
+                        Création de Sites Front-End
+                    </h3>
+                    <img src="/images/creation-removebg-preview.png" alt="creationImg" class="creationImg">
+                    <p>
+                        Spécialiste en création de sites web front-end, combinant esthétique moderne et fonctionnalité robuste.
+                    </p>
+                    <p>
+                        Expertise dans
+                        l'emploi de frameworks avancés comme React, ainsi que des standards web HTML5, CSS3, et JavaScript pour concevoir des
+                        expériences utilisateur captivantes et réactives.
+                    </p>
+                </div>
+
+                <div class="seo">
+                    <h3>
+                        Optimisation SEO
+                    </h3>
+                    <img src="/images/seo-removebg-preview.png" alt="seoImg" class="seoImg">
+                    <p>
+                        Analyse approfondie des mots-clés
+                        et de la concurrence pour améliorer la visibilité sur les moteurs de recherche
+                    </p>
+                    <p>
+                        Mise en œuvre de bonnes pratiques SEO telles que l'utilisation de balises HTML sémantiques,
+                        des URLs lisibles, et l'optimisation des balises meta.
+                    </p>
+                </div>
+                <div class="maintenance">
+                    <h3>
+                        Développement Backend
+                    </h3>
+                    <img src="/images/maintenance-removebg-preview.png" alt="maintenanceImg" class="maintenanceImg">
+                    <p>
+                        Capable de contribuer efficacement au développement backend pour des applications web. J'utilise des technologies
+                        modernes comme Node.js, Express, et diverses bases de données SQL ou NoSQL pour aider à construire des architectures
+                        robustes et performantes.
+                    </p>
+                    <p>
+                        Mon approche assure la fiabilité, la scalabilité et la sécurité nécessaires pour soutenir les interfaces utilisateur
+                        complexes et les exigences fonctionnelles des applications.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="mesProjets" id="mesProjets">
+            <h2>Mes Projets</h2>
+            <div class="project">
+            <div class="p1">
+                <a href="https://github.com/Ozheim/Projet-6">
+                    <h3>Kasa </h3>
+                    
+                    <img src="/images/Kasa.png" alt="site immobilier" class="project-img">
+                    <p>
+                    Projet Kasa – Application Front-End Immobilière avec React
+                    Développé de zéro pour un cours, ce projet est une application front-end pour une plateforme immobilière, utilisant
+                    React et React Router pour une navigation fluide entre les pages. L'architecture en composants assure la modularité et
+                    la facilité de maintenance. SASS est employé pour gérer les styles, offrant une personnalisation avancée et un design
+                    responsive qui s'adapte parfaitement aux différents appareils, du mobile à l'ordinateur de bureau. Ce projet démontre
+                    mes compétences approfondies en développement web moderne et en conception UI/UX responsive.
+                    </p>
+                </a>
+            </div>
+            </div>
+
+            <div class="p2">
+                <a href="https://github.com/Ozheim/Projet--3-.git">
+                    <h3>Sophie Bluel Architecte D'interieur</h3>
+                    <img src="/images/Sophie_Bluel.png" alt="le site de Sophie Bluel">  
+                    <p>
+                        Projet de Site Web pour Sophie Bluel, Architecte d'Intérieur
+                        Ce projet met en œuvre une galerie dynamique et des fonctionnalités d'administration en JavaScript, enrichies par des
+                        appels API pour la gestion des œuvres d'art. Il offre une interaction utilisateur avancée avec des filtres de catégorie
+                        et la capacité d'ajouter ou de supprimer des images en fonction du statut de connexion de l'utilisateur. Le site est
+                        conçu pour être réactif et accessible, utilisant HTML5, CSS3, et des modules JavaScript modernes pour une expérience
+                        utilisateur optimale.
+
+                    </p>
+                </a>
+            </div>
+
+            <div class="p3">
+                <a href="https://github.com/Ozheim/Nina_Carducci-.git"">
+                    <h3>Nina Carducci</h3>
+                    <img src="/images/Nina_Carducci.png" alt="Nina carducci site web">
+                    <p>
+                        Dans le cadre d'un projet pour OpenClassrooms sur le SEO et le débogage de jQuery, j'ai entrepris l'analyse de plusieurs
+                        sites web afin d'identifier les opportunités d'amélioration en termes de référencement. L'un des sites que j'ai
+                        sélectionnés est celui de Nina Carducci, une photographe professionnelle. Mon objectif est de proposer des solutions
+                        concrètes pour optimiser son site, ce qui permettrait d'accroître sa visibilité en ligne tout en enrichissant mes
+                        compétences pratiques dans ces domaines.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="competences" id="competences">
+            <h2>Mes Compétences</h2>
+            <div>
+                <div class="competencesContent">
+                    <h3>
+                        Maîtrise du HTML/CSS/SASS :
+                    </h3>
+                    <p>
+                        Expertise solide dans la création et
+                        la structuration de pages web en utilisant les langages HTML,CSS et     SASS
+                        assurant une présentation visuelle attrayante et une navigation fluide.
+                    </p>
+                </div>
+                <div class="competencesContent">
+                    <h3>
+                        Conception adaptative (Responsive Design)
+                    </h3>
+                    <p>
+                        Capacité à concevoir des sites web réactifs qui offrent une expérience utilisateur optimale sur
+                        divers appareils,
+                        garantissant une accessibilité maximale.
+                    </p>
+                </div>
+                <div class="competencesContent">
+                    <h3>
+                        JavaScript Interactif :
+                    </h3>
+                    <p>
+                        Utilisation compétente de JavaScript pour ajouter des fonctionnalités interactives et
+                        dynamiques,
+                        permettant une interactivité accrue et une expérience utilisateur améliorée.
+                    </p>
+                </div>
+                <div class="competencesContent">
+                    <h3>
+                       Maitrise de React: 
+                    </h3>
+                    <p>
+                        Utilisation complète de React et React-router pour le déploiement de sites dynamiques et aux performances optimisées.
+                        Grâce à ces outils, j'ai développé une expertise approfondie dans la création d'applications web réactives, capables de
+                        s'adapter à divers besoins et environnements, tout en offrant une navigation fluide et intuitive.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer id="contact">
+        <div class="social-buttons">
+            <a href="https://www.instagram.com" class="instagram-button">Instagram</a>
+            <a href="https://twitter.com" class="twitter-button">Twitter</a>
+            <a href="https://www.linkedin.com/in/heikel-zouaoui-rabah-833780285/" class="linkedin-button">LinkedIn</a>
+        </div>
+        <img src="/images/logo_HZ.jpg" alt="logoHZ" class="logoHZ">
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
